@@ -5,10 +5,10 @@
 #define MAX_ARG  32
 
 void swap(int array[], int index1, int index2) {
-    int index1num; 
-    index1num = array[index1];
+    int temp; 
+    temp = array[index1];
     array[index1] = array[index2];
-    array[index2] = index1num;
+    array[index2] = temp;
 }
 
 void min_sort(int numbers[], int num_elements) {
